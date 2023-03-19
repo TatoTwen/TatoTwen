@@ -1,0 +1,190 @@
+html {
+    margin:0px;
+}
+
+body {
+    margin:0px;
+    font-family: 'Barlow', serif;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    background-color: #E8AE02;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.nav-bar-item {
+    font-family: 'Tilt Warp', serif;   
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#top-dog-banner {
+    background-image: url('top_dog_berkeley.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    height: 90%;
+    position: relative;
+}
+
+#white-square-text {
+    font-family: 'Tilt Warp', serif;
+    font-size: 45px;
+    color: #CC2522;
+    background-color: white;
+    text-indent: 30px;
+    position: absolute;
+    margin-left: 30px;
+    top: 250px;
+    width: 450px;
+    height: 350px;
+    border: 8px solid #CC2522;
+}
+
+#view-menu {
+    font-family: 'Tilt Warp', serif;
+    font-size: 35px;
+    border-bottom: 10px black;
+    margin-left: 158px;
+    margin-top: 20px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 15px;
+    border: 2px solid #995F4C;
+}
+
+.item:hover {
+    opacity: 75%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.text-row-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.item-text-1 {
+    margin-left: 115px;
+    margin-right: 95px;  
+    text-align: center;
+    font-size: 20px;
+}
+
+.text-row-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.item-text-2 {
+    margin-left: 120px;
+    margin-right: 145px;  
+    text-align: center;
+    font-size: 20px;
+}
+
+#menu-blurb {
+    font-family: 'Barlow', serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#visit-us-text {
+    background: #E8AE02;
+    font-family: 'Tilt Warp', serif;
+    font-size: 45px;
+    color: #CC2522;
+    text-align: center;
+}
+
+#location-hours {
+    max-width: 50%;
+    max-height: 2000px;
+    margin-left: 175px;
+    display: block;
+}
+
+#our-story {
+    border-top: 10px solid #995F4C;
+    border-bottom: 10px solid #995F4C;
+    background: #E8AE02;
+    padding-bottom: 50px;
+}
+
+#our-story-title {
+    text-align: center;
+    font-family: 'Tilt Warp', serif;
+    font-size: 45px;
+    color: #CC2522;
+    padding-top: 20px;
+}
+
+#our-story-blurb {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    width: 500px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: white;
+    border: 5px solid #CC2522;
+}
+
+#read-more {
+    color: blue;
+}
+
+#copyright-credit {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img {
+	height: 100%;
+}
+
